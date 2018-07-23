@@ -6,12 +6,15 @@ SDP SCP for Directories
   * Copy the sdp $fpath
   * Make the function native to shell
 	
-	```source ~/.zshrc
+	```
+	   source ~/.zshrc
 	   autoload sdp
 	```
 
 ## Example
-   ``` sdp <Filename> <Destination Address>
+   ``` 
+      sdp <Filename> <Destination Address>
+   ```
 
 ## Idea behind the function
    > Tar the directory and then do ssh to host and untar it there.
