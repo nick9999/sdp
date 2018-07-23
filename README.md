@@ -3,7 +3,7 @@ SDP SCP for Directories
 -----------------------
 
 ## Install for ZSH users
-  * Copy the sdp $fpath
+  * Add the sdp to $fpath for reference [https://unix.stackexchange.com/questions/33255/how-to-define-and-load-your-own-shell-function-in-zsh]
   * Make the function native to shell
 	
 	```
