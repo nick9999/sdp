@@ -1,0 +1,8 @@
+sdp()
+{
+        if [[ ! -z $1 && ! -z $2 ]]; then
+                tar cvzf - "$1" | ssh "$2" 'tar xvzf -'
+        else
+                echo "Give input as first parameter as dir name and second path for sdp"
+        fi
+}
